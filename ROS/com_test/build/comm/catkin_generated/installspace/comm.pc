@@ -1,0 +1,8 @@
+prefix=/home/nlc/Desktop/com_test/install
+
+Name: comm
+Description: Description of comm
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcomm
+Requires: roscpp std_msgs
