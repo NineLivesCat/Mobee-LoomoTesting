@@ -1,2 +1,0 @@
-comm
--DCATKIN_DEVEL_PREFIX=/home/nlc/Desktop/com_test/devel -DCMAKE_INSTALL_PREFIX=/home/nlc/Desktop/com_test/install -G Unix Makefiles
