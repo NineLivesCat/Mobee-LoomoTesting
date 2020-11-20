@@ -60,11 +60,8 @@ CATKIN_IGNORE
 .catkin_workspace
 
 # Config files
-/config/camera/corner
-/config/camera/old
-/config/camera/save
-/config/Temp.txt
-/*.xml
 .gitignore.swp
 
-#
+# Android Studio
+./Loomo/.gradle/
+./Loomo/.idea/
