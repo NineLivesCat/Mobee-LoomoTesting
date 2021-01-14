@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000829] (Project) JobQueued: {'identifier': 'Project', 'dependencies': OrderedDict()}
+[0.000926] (Project) JobStarted: {'identifier': 'Project'}
+[0.007629] (Project) JobProgress: {'identifier': 'Project', 'progress': 'cmake'}
+[0.007923] (Project) Command: {'cmd': ['/usr/bin/cmake', '/home/marius/Mobee-LoomoTesting/ROS/src', '-DCMAKE_INSTALL_PREFIX=/home/marius/Mobee-LoomoTesting/install/Project'], 'cwd': '/home/marius/Mobee-LoomoTesting/build/Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marius'), ('LANGUAGE', 'en_HK:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/marius'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/marius'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'marius'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'marius'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marius-MS-7B89:@/tmp/.ICE-unix/1503,unix/marius-MS-7B89:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9a586c8_0db0_40cf_a46f_e60be41eb6b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marius/Mobee-LoomoTesting/build/Project'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.067865] (Project) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099568] (-) TimerEvent: {}
+[0.122157] (Project) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.127759] (Project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.191610] (Project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.192342] (Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199630] (-) TimerEvent: {}
+[0.253655] (Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260035] (Project) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299736] (-) TimerEvent: {}
+[0.400056] (-) TimerEvent: {}
+[0.444199] (Project) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.448389] (Project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500151] (-) TimerEvent: {}
+[0.518503] (Project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.519482] (Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.590683] (Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.596865] (Project) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.600205] (-) TimerEvent: {}
+[0.700436] (-) TimerEvent: {}
+[0.800742] (-) TimerEvent: {}
+[0.901070] (-) TimerEvent: {}
+[0.927910] (Project) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.001171] (-) TimerEvent: {}
+[1.062989] (Project) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/marius/Mobee-LoomoTesting/build/Project/devel\n'}
+[1.063253] (Project) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[1.063318] (Project) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[1.078529] (Project) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[1.078719] (Project) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[1.078850] (Project) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[1.079238] (Project) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[1.101245] (-) TimerEvent: {}
+[1.201479] (-) TimerEvent: {}
+[1.202547] (Project) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[1.202700] (Project) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[1.204904] (Project) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/marius/Mobee-LoomoTesting/build/Project/test_results\n'}
+[1.225957] (Project) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[1.226089] (Project) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[1.239595] (Project) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[1.241814] (Project) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301585] (-) TimerEvent: {}
+[1.309504] (Project) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.310174] (Project) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.374034] (Project) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.374252] (Project) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.401666] (-) TimerEvent: {}
+[1.428721] (Project) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.428935] (Project) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.500921] (Project) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.501741] (-) TimerEvent: {}
+[1.502570] (Project) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.507501] (Project) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[1.539437] (Project) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[1.539596] (Project) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[1.601831] (-) TimerEvent: {}
+[1.623156] (Project) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[1.701941] (-) TimerEvent: {}
+[1.802291] (-) TimerEvent: {}
+[1.902657] (-) TimerEvent: {}
+[2.002985] (-) TimerEvent: {}
+[2.085373] (Project) StdoutLine: {'line': b'-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.085615] (Project) StdoutLine: {'line': b'-- ~~  traversing 1 packages in topological order:\n'}
+[2.085734] (Project) StdoutLine: {'line': b'-- ~~  - comm\n'}
+[2.085831] (Project) StdoutLine: {'line': b'-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.085926] (Project) StdoutLine: {'line': b"-- +++ processing catkin package: 'comm'\n"}
+[2.086020] (Project) StdoutLine: {'line': b'-- ==> add_subdirectory(comm)\n'}
+[2.103051] (-) TimerEvent: {}
+[2.203283] (-) TimerEvent: {}
+[2.272067] (Project) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.292231] (Project) StdoutLine: {'line': b'-- Generating done\n'}
+[2.294643] (Project) StdoutLine: {'line': b'-- Build files have been written to: /home/marius/Mobee-LoomoTesting/build/Project\n'}
+[2.297559] (Project) CommandEnded: {'returncode': 0}
+[2.298258] (Project) JobProgress: {'identifier': 'Project', 'progress': 'build'}
+[2.299165] (Project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marius/Mobee-LoomoTesting/build/Project', '--', '-j12', '-l12'], 'cwd': '/home/marius/Mobee-LoomoTesting/build/Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marius'), ('LANGUAGE', 'en_HK:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/marius'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/marius'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'marius'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'marius'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marius-MS-7B89:@/tmp/.ICE-unix/1503,unix/marius-MS-7B89:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9a586c8_0db0_40cf_a46f_e60be41eb6b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marius/Mobee-LoomoTesting/build/Project'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[2.303355] (-) TimerEvent: {}
+[2.340146] (Project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[2.362009] (Project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object comm/CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[2.403449] (-) TimerEvent: {}
+[2.503748] (-) TimerEvent: {}
+[2.604071] (-) TimerEvent: {}
+[2.704394] (-) TimerEvent: {}
+[2.804722] (-) TimerEvent: {}
+[2.905045] (-) TimerEvent: {}
+[3.005367] (-) TimerEvent: {}
+[3.105688] (-) TimerEvent: {}
+[3.206024] (-) TimerEvent: {}
+[3.306349] (-) TimerEvent: {}
+[3.406674] (-) TimerEvent: {}
+[3.410251] (Project) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../devel/lib/comm/publisher\x1b[0m\n'}
+[3.504073] (Project) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[3.506736] (-) TimerEvent: {}
+[3.514977] (Project) CommandEnded: {'returncode': 0}
+[3.540863] (Project) JobProgress: {'identifier': 'Project', 'progress': 'install'}
+[3.551220] (Project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marius/Mobee-LoomoTesting/build/Project', '--target', 'install', '--', '-j12', '-l12'], 'cwd': '/home/marius/Mobee-LoomoTesting/build/Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marius'), ('LANGUAGE', 'en_HK:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/marius'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/marius'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'marius'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'marius'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marius-MS-7B89:@/tmp/.ICE-unix/1503,unix/marius-MS-7B89:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9a586c8_0db0_40cf_a46f_e60be41eb6b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marius/Mobee-LoomoTesting/build/Project'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[3.601697] (Project) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[3.606805] (-) TimerEvent: {}
+[3.621469] (Project) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.626662] (Project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.626822] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/_setup_util.py\n'}
+[3.626982] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/env.sh\n'}
+[3.627153] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/setup.bash\n'}
+[3.627305] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/local_setup.bash\n'}
+[3.627401] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/setup.sh\n'}
+[3.627494] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/local_setup.sh\n'}
+[3.627595] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/setup.zsh\n'}
+[3.627720] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/local_setup.zsh\n'}
+[3.627820] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/.rosinstall\n'}
+[3.627919] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/lib/pkgconfig/comm.pc\n'}
+[3.628056] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/share/comm/cmake/commConfig.cmake\n'}
+[3.628193] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/share/comm/cmake/commConfig-version.cmake\n'}
+[3.628288] (Project) StdoutLine: {'line': b'-- Installing: /home/marius/Mobee-LoomoTesting/install/Project/share/comm/package.xml\n'}
+[3.630200] (Project) CommandEnded: {'returncode': 0}
+[3.642670] (Project) JobEnded: {'identifier': 'Project', 'rc': 0}
+[3.643659] (-) EventReactorShutdown: {}
